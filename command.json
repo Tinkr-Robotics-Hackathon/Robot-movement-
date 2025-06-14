@@ -1,0 +1,347 @@
+{
+    "attack": [
+        {"tool": "move_robot", "args": {"move_gripper_up_mm": "75"}}
+    ],
+
+    "close": [
+        {"tool": "control_gripper", "args": {"gripper_openness_pct": "4"}}
+    ],
+
+    "open": [
+        {"tool": "control_gripper", "args": {"gripper_openness_pct": "18"}}
+    ],
+
+    "home": [   
+        {"tool": "move_robot", "args": {"move_gripper_up_mm": "50"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "-80"}},
+        {"tool": "move_robot", "args": {"move_gripper_up_mm": "-75"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "FORWARD_DISTANCE"}},
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "ROTATION_RESET"}}
+    ],
+
+    "move_for_cam": [
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "-20"}},
+        {"tool": "move_robot", "args": {"move_gripper_up_mm": "-30"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "-110"}}
+    ],
+
+    "a8": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "30"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "a7": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "70"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "a6": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "120"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "a5": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "150"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "a4": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "180"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "a3": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "210"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "a2": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "240"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "a1": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "270"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+
+    "b8": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "42"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "b7": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "98"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "b6": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "169"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "b5": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "212"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "b4": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "254"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "b3": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "297"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "b2": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "339"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "b1": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "382"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+
+    "c8": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "32"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "c7": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "76"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "c6": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "130"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "c5": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "163"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "c4": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "195"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "c3": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "228"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "c2": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "260"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "c1": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "-22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "292"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+
+    "d8": [  
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "30"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "d7": [    
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "70"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "d6": [
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "120"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "d5": [   
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "150"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "d4": [
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "180"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "d3": [
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "210"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "d2": [
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "240"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "d1": [
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "270"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+
+    "e8": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "32"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "e7": [     
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "76"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "e6": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "130"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "e5": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "163"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "e4": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "195"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "e3": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "228"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "e2": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "260"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "e1": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "22"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "292"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+
+    "f8": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "42"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "f7": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "98"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "f6": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "169"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "f5": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "212"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "f4": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "254"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "f3": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "297"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "f2": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "339"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "f1": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "45"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "382"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+
+    "g8": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "67"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "78"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "g7": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "67"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "179"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "g6": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "67"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "307"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "g5": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "67"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "384"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "g4": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "67"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "461"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "g3": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "67"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "538"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "g2": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "67"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "614"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "g1": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "67"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "691"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+
+    "h8": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "30"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "h7": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "70"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "h6": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "120"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "h5": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "150"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "h4": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "180"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "h3": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "210"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "h2": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "240"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ],
+    "h1": [
+        {"tool": "move_robot", "args": {"rotate_robot_right_angle": "90"}},
+        {"tool": "move_robot", "args": {"move_gripper_forward_mm": "270"}},
+        {"tool": "move_robot", "args": {"tilt_gripper_down_angle": "80"}}
+    ]
+}
